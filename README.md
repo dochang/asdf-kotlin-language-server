@@ -3,7 +3,7 @@
 # asdf-kotlin-language-server [![Build](https://github.com/dochang/asdf-kotlin-language-server/actions/workflows/build.yml/badge.svg)](https://github.com/dochang/asdf-kotlin-language-server/actions/workflows/build.yml) [![Lint](https://github.com/dochang/asdf-kotlin-language-server/actions/workflows/lint.yml/badge.svg)](https://github.com/dochang/asdf-kotlin-language-server/actions/workflows/lint.yml)
 
 
-[kotlin-language-server](<TOOL HOMEPAGE>) plugin for the [asdf version manager](https://asdf-vm.com).
+[kotlin-language-server](https://github.com/fwcd/kotlin-language-server#readme) plugin for the [asdf version manager](https://asdf-vm.com).
 
 </div>
 
