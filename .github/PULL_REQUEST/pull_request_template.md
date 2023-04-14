@@ -26,6 +26,7 @@
 
 <!--- Please describe in detail how you tested your changes. -->
 
+<!-- markdownlint-disable-next-line MD026 -->
 ## Checklist:
 
 <!--- Go over all the following points, and put an `x` in all the boxes that apply. -->
