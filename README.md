@@ -42,7 +42,7 @@ asdf install kotlin-language-server latest
 asdf global kotlin-language-server latest
 
 # Now kotlin-language-server commands are available
-kotlin-language-server --version
+command -v kotlin-language-server
 ```
 
 Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on how to

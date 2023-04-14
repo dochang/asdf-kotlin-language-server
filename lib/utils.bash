@@ -2,7 +2,7 @@ set -euo pipefail
 
 GH_REPO="https://github.com/fwcd/kotlin-language-server"
 TOOL_NAME="kotlin-language-server"
-TOOL_TEST="kotlin-language-server --version"
+TOOL_TEST="kotlin-language-server"
 
 fail() {
 	echo -e "asdf-$TOOL_NAME: $*"
