@@ -9,7 +9,11 @@ on:
   pull_request:
     branches: [master, main]
 
-permissions: read-all
+permissions:
+  issues: write
+  pull-requests: write
+  # For GitHub Comment Reporter
+  # https://megalinter.io/latest/reporters/GitHubCommentReporter/
 
 env: # Comment env block if you do not want to apply fixes
   # Apply linter fixes configuration
