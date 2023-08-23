@@ -1,7 +1,11 @@
 <!-- markdownlint-disable MD041 -->
 <div align="center">
 
-# asdf-kotlin-language-server [![Build](https://github.com/dochang/asdf-kotlin-language-server/actions/workflows/build.yml/badge.svg)](https://github.com/dochang/asdf-kotlin-language-server/actions/workflows/build.yml) [![Lint](https://github.com/dochang/asdf-kotlin-language-server/actions/workflows/lint.yml/badge.svg)](https://github.com/dochang/asdf-kotlin-language-server/actions/workflows/lint.yml)
+# asdf-kotlin-language-server
+
+[![Build](https://github.com/dochang/asdf-kotlin-language-server/actions/workflows/build.yml/badge.svg)](https://github.com/dochang/asdf-kotlin-language-server/actions/workflows/build.yml)
+[![Lint](https://github.com/dochang/asdf-kotlin-language-server/actions/workflows/lint.yml/badge.svg)](https://github.com/dochang/asdf-kotlin-language-server/actions/workflows/lint.yml)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/dochang/asdf-kotlin-language-server/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/dochang/asdf-kotlin-language-server/tree/main)
 
 
 [kotlin-language-server](https://github.com/fwcd/kotlin-language-server#readme) plugin for the [asdf version manager](https://asdf-vm.com).
