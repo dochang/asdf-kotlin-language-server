@@ -45,6 +45,16 @@ jobs:
       - store_artifacts:
           path: megalinter-reports
 
+  commitlint:
+    docker:
+      - image: commitizen/commitizen:latest
+        # checkov:skip=CKV_CIRCLECIPIPELINES_1:prefer mutable but stable tags
+    steps:
+      - checkout
+      - run:
+          command: |
+            cz check --rev-range 598dda2..HEAD
+
   plugin_test:
     docker:
       - image: cimg/base:current
@@ -87,6 +97,7 @@ workflows:
   Lint:
     jobs:
       - lint
+      - commitlint
 
   Build:
     jobs:
